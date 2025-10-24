@@ -2,22 +2,22 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "13076045"))
+API_HASH = os.environ.get("API_HASH", "32f2036dcb66c94637a7e87de6b6001b")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-CREDIT = os.environ.get("CREDIT", "𝒮𝒽𝒶𝒹𝑜𝓌 𝐵𝑜𝓉𝓈")
+CREDIT = os.environ.get("CREDIT", "Soumen Bot")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "SHADOWXPROMAX")
 DATABASE_URL = os.environ.get("DATABASE_URL", "0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "78"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "78").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8222519141"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "8222519141").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+B0yBklsdXeQ2MTU9"
+PREMIUM_CHANNEL = "https://t.me/+qoGbiwNdaQhmYzhl"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.ibb.co/MxZ0Yp11/hloo.png").split()))
 
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
